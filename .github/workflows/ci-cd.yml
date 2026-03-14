@@ -31,7 +31,7 @@ jobs:
 
       - name: Run lint
         working-directory: api
-        run: npx eslint server.js
+        run: npx eslint .
 
       - name: Run tests
         working-directory: api
