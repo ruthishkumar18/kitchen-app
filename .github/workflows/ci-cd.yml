@@ -28,7 +28,7 @@ jobs:
       - name: Run lint
         run: |
           cd api
-          npm run lint
+          npx eslint server.js
 
       - name: Run tests
         run: |
